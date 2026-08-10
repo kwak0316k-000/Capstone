@@ -4,7 +4,8 @@
 
 <img width="2816" height="1536" alt="Gemini_Generated_Image_a1bq4ia1bq4ia1bq" src="https://github.com/user-attachments/assets/08783327-aa21-4533-b7ee-6f04c60073ce" />
 
-<img width="2816" height="1536" alt="Gemini_Generated_Image_o4hwqpo4hwqpo4hw" src="https://github.com/user-attachments/assets/81690c6d-418f-4a5e-b23a-aa3570002bc8" />
+<img width="2816" height="1536" alt="최수민실패작" src="https://github.com/user-attachments/assets/5324ccc0-dae2-4efe-b1f1-9ccd7c9c3caf" />
+
 
 - 가상 주민 3인 특징 -
 
