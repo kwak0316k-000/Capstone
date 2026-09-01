@@ -1,0 +1,14 @@
+{
+  "A_정규화만_ABM": {
+    "age_mae": 6.42,
+    "gender_mae": 0.13,
+    "time_mae": 3.29,
+    "day_mae": null
+  },
+  "C_실제Nemotron_Claude판단": {
+    "age_mae": 9.73,
+    "gender_mae": 6.27,
+    "time_mae": 17.99,
+    "day_mae": 66.01
+  }
+}
