@@ -254,9 +254,10 @@ python coex_persona_simulation.py
 │   ├── gender_comparison.png
 │   └── time_comparison.png
 └── results/
-    ├── actual_pct.json                # 실제 데이터 비율
-    ├── simulated_visitors.csv         # 시뮬레이션 수락자 목록
-    └── comparison_tables.json         # 비교표 + MAE
+    ├── actual_pct.json                # 실제 데이터 비율 (eda.py 산출물)
+    ├── quarterly_trend.csv            # 분기별 유동인구 추이 원자료 (eda.py 산출물)
+    ├── simulated_visitors.csv         # 시뮬레이션 수락자 목록 (simulation_baseline.py 산출물)
+    └── comparison_tables.json         # 비교표 + MAE (simulation_baseline.py 산출물)
 ```
 
 ---
