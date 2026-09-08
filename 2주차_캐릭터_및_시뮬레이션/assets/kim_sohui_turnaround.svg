@@ -1,0 +1,142 @@
+<svg width="680" height="440" viewBox="0 0 680 440" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>김소희 캐릭터 4방향 턴어라운드 v2</title>
+<desc>33세 육군 부사관 김소희의 정면, 오른쪽, 왼쪽, 뒷모습 캐릭터 디자인. 이목구비와 음영이 추가된 플랫 일러스트 스타일. 세이지그린 후드티, 검정 레깅스, 포니테일, 몬스테라 화분.</desc>
+<style>
+.skin{fill:#f0c19a}
+.skin-sh{fill:#e0ab7d}
+.hair{fill:#2e2016}
+.hair-sh{fill:#221709}
+.hoodie{fill:#8fa082}
+.hoodie-sh{fill:#75886a}
+.hoodie-dk{fill:#5f7057}
+.pants{fill:#2b2b30}
+.pants-sh{fill:#1e1e22}
+.shoe{fill:#f7f7f2}
+.shoe-sh{fill:#dcdcd4}
+.pot{fill:#c97b4f}
+.pot-sh{fill:#a6603a}
+.leaf{fill:#4d7f51}
+.leaf-sh{fill:#3a6640}
+.line{stroke:#2e2016;stroke-width:1;fill:none;stroke-linecap:round}
+.label{font-size:13px;fill:#666;font-family:sans-serif;text-anchor:middle}
+</style>
+<rect width="680" height="440" fill="white"/>
+<g transform="translate(90,55)">
+<ellipse class="pot" cx="34" cy="118" rx="17" ry="7"/>
+<rect class="pot" x="17" y="102" width="34" height="18" rx="3"/>
+<rect class="pot-sh" x="17" y="112" width="34" height="8" rx="3"/>
+<path class="leaf" d="M34 102 Q10 84 20 56 Q34 66 36 90 Z"/>
+<path class="leaf-sh" d="M34 102 Q22 90 24 74 Q30 80 34 102 Z"/>
+<path class="leaf" d="M34 100 Q48 78 40 54 Q28 62 30 88 Z"/>
+<path class="hair" d="M22 -10 Q42 6 34 44 Q28 30 26 12 Z"/>
+<rect class="pants" x="-19" y="150" width="16" height="66" rx="7"/>
+<rect class="pants-sh" x="-19" y="150" width="6" height="66" rx="3"/>
+<rect class="pants" x="3" y="150" width="16" height="66" rx="7"/>
+<rect class="pants-sh" x="13" y="150" width="6" height="66" rx="3"/>
+<ellipse class="shoe" cx="-11" cy="220" rx="13" ry="7"/>
+<ellipse class="shoe-sh" cx="-11" cy="223" rx="13" ry="4"/>
+<ellipse class="shoe" cx="11" cy="220" rx="13" ry="7"/>
+<ellipse class="shoe-sh" cx="11" cy="223" rx="13" ry="4"/>
+<path class="hoodie" d="M-27 30 Q0 16 27 30 L32 148 Q0 160 -32 148 Z"/>
+<path class="hoodie-sh" d="M10 30 Q27 34 27 30 L32 148 Q18 156 6 158 Z"/>
+<circle class="hoodie-dk" cx="0" cy="42" r="11"/>
+<path class="line" d="M-9 30 Q0 40 9 30" stroke-width="1"/>
+<path class="line" d="M-8 60 L-8 100 M8 60 L8 100" stroke-width="0.7" opacity="0.4"/>
+<path class="hoodie" d="M-27 34 Q-38 60 -34 95 L-24 95 Q-27 62 -19 38 Z"/>
+<path class="hoodie" d="M27 34 Q40 55 36 90 L26 90 Q28 60 20 38 Z"/>
+<circle class="skin" cx="-29" cy="99" r="9"/>
+<circle class="skin" cx="31" cy="94" r="9"/>
+<rect class="skin" x="-7" y="14" width="14" height="12" rx="5"/>
+<rect class="skin-sh" x="-7" y="20" width="14" height="6" rx="3"/>
+<circle class="skin" cx="0" cy="0" r="21"/>
+<path class="skin-sh" d="M14 -8 Q22 4 14 16 Q19 4 14 -8 Z"/>
+<path class="hair" d="M-21 -2 Q-24 -22 0 -25 Q24 -22 21 -2 Q22 -14 0 -17 Q-22 -14 -21 -2 Z"/>
+<path class="hair" d="M-21 -4 Q-19 6 -15 12 Q-20 0 -19 -12 Z"/>
+<path class="hair" d="M21 -4 Q19 6 15 12 Q20 0 19 -12 Z"/>
+<path class="line" d="M-11 -2 Q-7 -4 -3 -2" stroke-width="1.1"/>
+<path class="line" d="M11 -2 Q7 -4 3 -2" stroke-width="1.1"/>
+<ellipse cx="-7" cy="2" rx="2.6" ry="3.2" fill="#2e2016"/>
+<ellipse cx="7" cy="2" rx="2.6" ry="3.2" fill="#2e2016"/>
+<circle cx="-6.3" cy="1" r="0.8" fill="#fff"/>
+<circle cx="7.7" cy="1" r="0.8" fill="#fff"/>
+<path class="line" d="M0 4 Q-1 9 1 10" stroke-width="0.9"/>
+<path class="line" d="M-6 15 Q0 19 6 15" stroke-width="1.2"/>
+<ellipse class="skin-sh" cx="-13" cy="10" rx="3" ry="2" opacity="0.5"/>
+<ellipse class="skin-sh" cx="13" cy="10" rx="3" ry="2" opacity="0.5"/>
+</g>
+<text class="label" x="90" y="230">정면</text>
+<g transform="translate(260,55)">
+<path class="hair" d="M-6 -22 Q-32 -4 -18 42 Q-24 14 -16 -10 Z"/>
+<rect class="pants" x="-9" y="150" width="17" height="66" rx="7"/>
+<rect class="pants" x="12" y="150" width="17" height="66" rx="7"/>
+<rect class="pants-sh" x="21" y="150" width="8" height="66" rx="4"/>
+<ellipse class="shoe" cx="6" cy="220" rx="14" ry="7"/>
+<ellipse class="shoe" cx="26" cy="220" rx="14" ry="7"/>
+<ellipse class="shoe-sh" cx="26" cy="223" rx="14" ry="4"/>
+<path class="hoodie" d="M-23 30 Q0 16 23 30 L27 148 Q0 160 -27 148 Z"/>
+<path class="hoodie-sh" d="M4 30 Q23 34 23 30 L27 148 Q14 156 4 158 Z"/>
+<path class="hoodie" d="M18 34 Q34 55 30 92 L18 92 Q22 60 12 38 Z"/>
+<circle class="skin" cx="24" cy="95" r="9"/>
+<rect class="skin" x="-6" y="14" width="13" height="12" rx="5"/>
+<rect class="skin-sh" x="-6" y="20" width="13" height="6" rx="3"/>
+<circle class="skin" cx="1" cy="0" r="20"/>
+<path class="skin-sh" d="M17 -8 Q22 4 15 15 Q20 2 17 -8 Z"/>
+<path class="skin" d="M18 -1 Q23 1 19 6 Z"/>
+<path class="hair" d="M-19 -14 Q-22 -22 1 -24 Q22 -21 19 -8 Q16 -18 1 -19 Q-16 -18 -19 -14 Z"/>
+<path class="line" d="M13 -3 Q17 -4 19 -1" stroke-width="1"/>
+<ellipse cx="14" cy="1" rx="2.4" ry="3.2" fill="#2e2016"/>
+<circle cx="14.6" cy="0" r="0.7" fill="#fff"/>
+<path class="line" d="M20 3 Q22 6 19 8" stroke-width="1"/>
+<path class="line" d="M12 15 Q17 17 20 14" stroke-width="1.1"/>
+</g>
+<text class="label" x="260" y="230">오른쪽</text>
+<g transform="translate(420,55) scale(-1,1)">
+<path class="hair" d="M-6 -22 Q-32 -4 -18 42 Q-24 14 -16 -10 Z"/>
+<rect class="pants" x="-9" y="150" width="17" height="66" rx="7"/>
+<rect class="pants" x="12" y="150" width="17" height="66" rx="7"/>
+<rect class="pants-sh" x="21" y="150" width="8" height="66" rx="4"/>
+<ellipse class="shoe" cx="6" cy="220" rx="14" ry="7"/>
+<ellipse class="shoe" cx="26" cy="220" rx="14" ry="7"/>
+<ellipse class="shoe-sh" cx="26" cy="223" rx="14" ry="4"/>
+<path class="hoodie" d="M-23 30 Q0 16 23 30 L27 148 Q0 160 -27 148 Z"/>
+<path class="hoodie-sh" d="M4 30 Q23 34 23 30 L27 148 Q14 156 4 158 Z"/>
+<path class="hoodie" d="M18 34 Q34 55 30 92 L18 92 Q22 60 12 38 Z"/>
+<circle class="skin" cx="24" cy="95" r="9"/>
+<rect class="skin" x="-6" y="14" width="13" height="12" rx="5"/>
+<rect class="skin-sh" x="-6" y="20" width="13" height="6" rx="3"/>
+<circle class="skin" cx="1" cy="0" r="20"/>
+<path class="skin-sh" d="M17 -8 Q22 4 15 15 Q20 2 17 -8 Z"/>
+<path class="skin" d="M18 -1 Q23 1 19 6 Z"/>
+<path class="hair" d="M-19 -14 Q-22 -22 1 -24 Q22 -21 19 -8 Q16 -18 1 -19 Q-16 -18 -19 -14 Z"/>
+<path class="line" d="M13 -3 Q17 -4 19 -1" stroke-width="1"/>
+<ellipse cx="14" cy="1" rx="2.4" ry="3.2" fill="#2e2016"/>
+<circle cx="14.6" cy="0" r="0.7" fill="#fff"/>
+<path class="line" d="M20 3 Q22 6 19 8" stroke-width="1"/>
+<path class="line" d="M12 15 Q17 17 20 14" stroke-width="1.1"/>
+</g>
+<text class="label" x="420" y="230">왼쪽</text>
+<g transform="translate(590,55)">
+<rect class="pants" x="-19" y="150" width="16" height="66" rx="7"/>
+<rect class="pants" x="3" y="150" width="16" height="66" rx="7"/>
+<rect class="pants-sh" x="-19" y="150" width="6" height="66" rx="3"/>
+<ellipse class="shoe" cx="-11" cy="220" rx="13" ry="7"/>
+<ellipse class="shoe" cx="11" cy="220" rx="13" ry="7"/>
+<ellipse class="shoe-sh" cx="-11" cy="223" rx="13" ry="4"/>
+<path class="hoodie" d="M-27 30 Q0 16 27 30 L32 148 Q0 160 -32 148 Z"/>
+<path class="hoodie-sh" d="M-27 30 Q-10 34 -10 30 L-32 148 Q-18 156 -6 158 Z"/>
+<path d="M0 26 Q-4 60 -3 100 M0 26 Q4 60 3 100" class="line" stroke-width="0.8" opacity="0.5"/>
+<circle class="hoodie-dk" cx="0" cy="38" r="10"/>
+<path class="hoodie" d="M-27 34 Q-38 60 -34 95 L-24 95 Q-27 62 -19 38 Z"/>
+<path class="hoodie" d="M27 34 Q40 55 36 90 L26 90 Q28 60 20 38 Z"/>
+<circle class="skin" cx="-29" cy="99" r="9"/>
+<circle class="skin" cx="31" cy="94" r="9"/>
+<rect class="skin" x="-7" y="14" width="14" height="12" rx="5"/>
+<circle class="skin" cx="0" cy="0" r="21"/>
+<path class="hair" d="M-21 -2 Q-24 -22 0 -25 Q24 -22 21 -2 Q22 -10 0 -13 Q-22 -10 -21 -2 Z"/>
+<path class="hair" d="M-9 -8 Q0 -12 9 -8 L11 20 Q0 24 -11 20 Z"/>
+<path class="hair" d="M-6 18 Q0 15 6 18 L9 58 Q0 66 -9 58 Z"/>
+<ellipse class="hair-sh" cx="0" cy="60" rx="7" ry="6"/>
+<rect class="hair" x="-7" y="52" width="14" height="6" rx="3"/>
+</g>
+<text class="label" x="590" y="230">뒷모습</text>
+</svg>
