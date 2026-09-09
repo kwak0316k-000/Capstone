@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>이번 주, 우리 동네에 쇼핑몰이 생겼다 — 3인 페르소나 안내판</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #201d19;
+    --paper: #efeadf;
+    --paper-2: #e6dfd0;
+    --ink: #2b2523;
+    --ink-soft: #5a5148;
+    --sage: #7c8b6f;
+    --sage-dk: #5f6d54;
+    --mustard: #c99a3b;
+    --slate: #4a5568;
+    --brown: #8b6f4e;
+    --line: #d8cfba;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Noto Sans KR', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;}
+
+  /* ===== Header ===== */
+  header{
+    padding:64px 24px 48px;
+    text-align:center;
+    color:#f3efe6;
+  }
+  header .eyebrow{
+    font-size:14px;
+    color:var(--mustard);
+    font-weight:700;
+    letter-spacing:0.02em;
+    margin-bottom:14px;
+  }
+  header h1{
+    font-size:clamp(28px, 5vw, 46px);
+    font-weight:900;
+    line-height:1.25;
+    margin:0 0 18px;
+  }
+  header p{
+    font-size:16px;
+    color:#c9c2b3;
+    max-width:520px;
+    margin:0 auto;
+    line-height:1.7;
+  }
+
+  /* ===== Directory board (hero) ===== */
+  .board{
+    max-width:920px;
+    margin:0 auto 56px;
+    padding:0 20px;
+  }
+  .board-frame{
+    background:var(--paper);
+    border-radius:6px;
+    box-shadow:0 24px 60px rgba(0,0,0,0.35);
+    overflow:hidden;
+  }
+  .board-title{
+    background:var(--ink);
+    color:var(--paper);
+    text-align:center;
+    padding:14px 20px;
+    font-weight:700;
+    font-size:14px;
+    letter-spacing:0.04em;
+  }
+  .floors{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+  }
+  .floor{
+    padding:28px 18px 24px;
+    text-align:center;
+    border-right:1px solid var(--line);
+    position:relative;
+  }
+  .floor:last-child{border-right:none;}
+  .floor .fnum{
+    font-size:34px;
+    font-weight:900;
+    line-height:1;
+    margin-bottom:4px;
+  }
+  .floor.f-sohui .fnum{color:var(--sage-dk);}
+  .floor.f-jaeseong .fnum{color:var(--slate);}
+  .floor.f-sumin .fnum{color:var(--brown);}
+  .floor .flabel{
+    font-size:12px;
+    color:var(--ink-soft);
+    font-weight:500;
+    margin-bottom:16px;
+  }
+  .floor img{
+    width:88px;
+    height:88px;
+    border-radius:50%;
+    object-fit:cover;
+    border:3px solid var(--paper);
+    box-shadow:0 0 0 2px var(--line);
+    margin-bottom:12px;
+    background:#ddd6c4;
+  }
+  .floor .fname{
+    font-size:16px;
+    font-weight:700;
+  }
+  .floor .frole{
+    font-size:12.5px;
+    color:var(--ink-soft);
+    margin-top:2px;
+  }
+
+  /* ===== Section heading ===== */
+  .section-head{
+    max-width:720px;
+    margin:0 auto 22px;
+    padding:0 24px;
+    color:#f3efe6;
+  }
+  .section-head h2{
+    font-size:20px;
+    font-weight:700;
+    margin:0 0 6px;
+  }
+  .section-head p{
+    font-size:14px;
+    color:#a79f8f;
+    margin:0;
+  }
+
+  /* ===== Chat ===== */
+  .chat-wrap{
+    max-width:720px;
+    margin:0 auto 40px;
+    padding:0 24px;
+  }
+  .replay-btn{
+    display:block;
+    margin:0 auto 24px;
+    padding:11px 26px;
+    border-radius:999px;
+    border:none;
+    background:var(--mustard);
+    color:#221a08;
+    font-family:inherit;
+    font-weight:700;
+    font-size:14px;
+    cursor:pointer;
+  }
+  .replay-btn:focus-visible{outline:3px solid #f3efe6; outline-offset:2px;}
+  .replay-btn:active{transform:translateY(1px);}
+
+  .msg{
+    display:flex;
+    gap:12px;
+    margin-bottom:18px;
+    opacity:0;
+    transform:translateY(8px);
+  }
+  .msg.show{
+    animation:rise 0.45s ease forwards;
+  }
+  @keyframes rise{
+    to{opacity:1; transform:translateY(0);}
+  }
+  .msg img{
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    object-fit:cover;
+    flex:none;
+    background:#ddd6c4;
+    border:2px solid var(--paper);
+  }
+  .msg .col{max-width:78%;}
+  .msg .who{
+    font-size:12.5px;
+    font-weight:700;
+    margin-bottom:5px;
+    color:#e7e1d2;
+  }
+  .bubble{
+    background:var(--paper);
+    color:var(--ink);
+    padding:11px 15px;
+    border-radius:14px;
+    font-size:14.5px;
+    line-height:1.55;
+    box-shadow:0 6px 16px rgba(0,0,0,0.18);
+  }
+  .msg.sohui .bubble{border-left:4px solid var(--sage);}
+  .msg.jaeseong .bubble{border-left:4px solid var(--slate);}
+  .msg.sumin .bubble{border-left:4px solid var(--brown);}
+
+  .badges{margin-top:7px; display:flex; gap:6px; flex-wrap:wrap;}
+  .badge{
+    display:inline-flex;
+    align-items:center;
+    gap:4px;
+    font-size:11.5px;
+    font-weight:700;
+    padding:4px 10px 4px 8px;
+    border-radius:999px;
+    border:1px dashed rgba(243,239,230,0.5);
+    color:#f3efe6;
+  }
+  .badge.visit{background:rgba(124,139,111,0.35);}
+  .badge.buy{background:rgba(201,154,59,0.35);}
+
+  /* ===== Legend / footer ===== */
+  .legend{
+    max-width:720px;
+    margin:0 auto 8px;
+    padding:0 24px;
+    display:flex;
+    gap:18px;
+    flex-wrap:wrap;
+    font-size:12.5px;
+    color:#a79f8f;
+  }
+  .legend span{display:inline-flex; align-items:center; gap:6px;}
+  .dot{width:9px;height:9px;border-radius:50%;display:inline-block;}
+  .dot.visit{background:var(--sage);}
+  .dot.buy{background:var(--mustard);}
+
+  footer{
+    text-align:center;
+    padding:40px 24px 60px;
+    color:#7c7566;
+    font-size:12.5px;
+    line-height:1.8;
+  }
+
+  @media (max-width:640px){
+    .floors{grid-template-columns:1fr;}
+    .floor{border-right:none; border-bottom:1px solid var(--line);}
+    .floor:last-child{border-bottom:none;}
+    .msg .col{max-width:85%;}
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    .msg{opacity:1; transform:none;}
+    .msg.show{animation:none;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">3주차 · 캐릭터 · 대화 · 액션 시각화</div>
+  <h1>이번 주,<br>우리 동네에 쇼핑몰이 생겼다</h1>
+  <p>실제 Nemotron-Personas-Korea 페르소나 세 명이 각자의 취향대로 반응하고, 방문하고, 구매하는 과정을 기록했다.</p>
+</header>
+
+<div class="board">
+  <div class="board-frame">
+    <div class="board-title">FLOOR GUIDE — 오늘의 방문객</div>
+    <div class="floors">
+      <div class="floor f-sohui">
+        <div class="fnum">4F</div>
+        <div class="flabel">다이닝 · 리빙</div>
+        <img src="assets/kim_sohui_face.png" alt="김소희">
+        <div class="fname">김소희</div>
+        <div class="frole">33 · 육군 부사관</div>
+      </div>
+      <div class="floor f-jaeseong">
+        <div class="fnum">1F</div>
+        <div class="flabel">푸드코트 · 리뷰 분석</div>
+        <img src="assets/kim_jaeseong_face.png" alt="김재성">
+        <div class="fname">김재성</div>
+        <div class="frole">22 · 취업준비생</div>
+      </div>
+      <div class="floor f-sumin">
+        <div class="fnum">?F</div>
+        <div class="flabel">발길 닿는 대로</div>
+        <img src="assets/choi_sumin_face.png" alt="최수민">
+        <div class="fname">최수민</div>
+        <div class="frole">21 · 구직 중</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-head">
+  <h2>단톡방 &mdash; 우리 셋</h2>
+  <p>실제 페르소나의 취향·직업·거주지에서만 근거를 뽑아 작성한 대화입니다.</p>
+</div>
+
+<div class="chat-wrap">
+  <button class="replay-btn" id="replayBtn">대화 재생하기 ▶</button>
+
+  <div class="legend">
+    <span><span class="dot visit"></span> 방문한다</span>
+    <span><span class="dot buy"></span> 구매한다</span>
+  </div>
+  <div style="height:14px"></div>
+
+  <div id="chatLog">
+    <div class="msg jaeseong" data-name="김재성" data-avatar="assets/kim_jaeseong_face.png">
+      <img src="assets/kim_jaeseong_face.png" alt="">
+      <div class="col">
+        <div class="who">김재성</div>
+        <div class="bubble">다들 들었어? 우리 동네마다 대형 쇼핑몰 생겼다던데 ㅋㅋ 나 돈카츠집 리뷰 벌써 다 봄</div>
+      </div>
+    </div>
+
+    <div class="msg sumin" data-name="최수민">
+      <img src="assets/choi_sumin_face.png" alt="">
+      <div class="col">
+        <div class="who">최수민</div>
+        <div class="bubble">저도 동대문 쪽에 생겼어요! 소품샵 있으면 그냥 발길 닿는 대로 가보려구요</div>
+        <div class="badges"><span class="badge visit">📍 방문한다</span></div>
+      </div>
+    </div>
+
+    <div class="msg sohui" data-name="김소희">
+      <img src="assets/kim_sohui_face.png" alt="">
+      <div class="col">
+        <div class="who">김소희</div>
+        <div class="bubble">유성구 쪽도 크게 생겼던데... 나 크림파스타집 있으면 무조건 감</div>
+        <div class="badges"><span class="badge visit">📍 방문한다</span></div>
+      </div>
+    </div>
+
+    <div class="msg jaeseong" data-name="김재성">
+      <img src="assets/kim_jaeseong_face.png" alt="">
+      <div class="col">
+        <div class="who">김재성</div>
+        <div class="bubble">누나 4층에 평점 제일 높은 크림파스타집 있어요, 링크 드릴게요</div>
+      </div>
+    </div>
+
+    <div class="msg sohui" data-name="김소희">
+      <img src="assets/kim_sohui_face.png" alt="">
+      <div class="col">
+        <div class="who">김소희</div>
+        <div class="bubble">오 저장. 몬스테라 화분도 리빙코너에서 하나 살까 봐</div>
+        <div class="badges"><span class="badge buy">🛍 구매한다</span></div>
+      </div>
+    </div>
+
+    <div class="msg sumin" data-name="최수민">
+      <img src="assets/choi_sumin_face.png" alt="">
+      <div class="col">
+        <div class="who">최수민</div>
+        <div class="bubble">저는 아까 소품샵에서 마음에 드는 오브제 발견해서 바로 샀어요 ㅎㅎ</div>
+        <div class="badges"><span class="badge buy">🛍 구매한다</span></div>
+      </div>
+    </div>
+
+    <div class="msg jaeseong" data-name="김재성">
+      <img src="assets/kim_jaeseong_face.png" alt="">
+      <div class="col">
+        <div class="who">김재성</div>
+        <div class="bubble">오 저도 라멘 먹으러 이번 주말에 감</div>
+        <div class="badges"><span class="badge visit">📍 방문한다</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  페르소나 데이터: nvidia/Nemotron-Personas-Korea (실제 500명 샘플 중 3명)<br>
+  캐릭터 일러스트: GPT 이미지 생성 (2등신 스타일) · 대화: Claude Sonnet 5 작성
+</footer>
+
+<script>
+  const msgs = Array.from(document.querySelectorAll('.msg'));
+  const btn = document.getElementById('replayBtn');
+
+  function play(){
+    msgs.forEach(m => m.classList.remove('show'));
+    // reflow
+    void document.getElementById('chatLog').offsetWidth;
+    msgs.forEach((m, i) => {
+      setTimeout(() => m.classList.add('show'), i * 480);
+    });
+  }
+
+  btn.addEventListener('click', play);
+  window.addEventListener('load', play);
+</script>
+
+</body>
+</html>
