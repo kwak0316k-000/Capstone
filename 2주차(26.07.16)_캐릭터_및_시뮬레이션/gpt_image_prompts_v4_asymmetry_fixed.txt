@@ -1,0 +1,130 @@
+GPT(ChatGPT 이미지 생성)에 하나씩 따로 붙여넣으세요.
+
+※ v3(거울상 지시) 대비 수정사항:
+   이전 버전은 "왼쪽 옆모습은 오른쪽 옆모습의 거울상이어야 한다"고 지시했는데, 이건
+   방향(같은 쪽을 보는 문제)은 고쳤지만 새로운 문제를 만들었습니다 — 가르마나 옆으로
+   넘긴 앞머리처럼 좌우 비대칭인 머리카락까지 그대로 반전되어, 실제로는 "같은 쪽 얼굴을
+   좌우만 뒤집은 가짜 옆모습"이 되어버립니다. 진짜 오른쪽 옆모습과 왼쪽 옆모습은 물리적으로
+   다른 쪽 얼굴을 보여줘야 하므로, 가르마가 있는 쪽은 이마가 드러나는 정도가 서로 달라야
+   합니다. 이번 버전은 "거울상" 지시를 빼고, 두 옆모습을 각각 독립적으로 설명해서 이 문제를
+   해결했습니다.
+
+※ 추가 수정: 세 캐릭터 모두 오른쪽 옆모습은 앞머리가 눈썹을 거의 덮을 정도로 진하게,
+   왼쪽 옆모습은 눈썹이 뚜렷하게 보이도록 강도를 명시했습니다. 최수민의 에코백도 오른쪽
+   옆모습에서만 뚜렷이 보이고 왼쪽에서는 몸에 가려 안 보이거나 끈만 살짝 보이도록,
+   김재성은 목에 건 유선 이어폰 대신 양쪽 귀의 무선 이어버드로 교체했습니다.
+
+====================================================================
+[1] 김소희 (33세, 육군 부사관) — 최애주민
+====================================================================
+A chibi-style anime character reference sheet with four panels arranged in a single
+horizontal row, showing the exact same character. Cute super-deformed proportions:
+2 heads tall, large round head, big expressive eyes, small simplified body. Clean bold
+outlines, soft cel-shading, Korean webtoon/anime illustration style — NOT realistic, NOT
+photographic, NOT normal human proportions.
+
+Her hairstyle has a side part with side-swept bangs: more hair covers her RIGHT side of the
+forehead, and more of her LEFT forehead is visible. This asymmetry must stay physically
+consistent across all four panels — it is not something to flip or mirror between panels.
+
+Panel 1 (Front view): she faces directly toward the camera, both eyes visible, cheerful
+expression. The side-swept bangs are visible covering more of the right side of her forehead.
+Panel 2 (Right side view): her body is turned so we see her RIGHT profile — face pointing
+toward the right edge of the frame, nose pointing right, only her right eye visible. Since
+more hair covers this side, her bangs fall low enough to almost completely cover her right
+eyebrow — the eyebrow should be barely visible or fully hidden under the hair, clearly
+different from the front view.
+Panel 3 (Left side view): her body is turned so we see her LEFT profile — face pointing
+toward the left edge of the frame, nose pointing left, only her left eye visible. Since more
+of her left forehead is exposed, this profile shows a cleaner hairline with her left eyebrow
+fully visible and not covered by hair — clearly different from panel 2, not a mirrored copy of it.
+Panel 4 (Back view): she faces directly away from the camera, back of head and body only, no face.
+
+Character design: young woman, athletic build, warm round face, big brown eyes, dark brown
+hair in a neat ponytail with the side-swept bangs described above. Oversized sage-green
+hoodie with drawstrings and a kangaroo pocket, black leggings, white sneakers. In panel 1
+only, she holds a small monstera plant in a terracotta pot with both arms.
+
+All four panels: identical chibi proportions, identical height, identical outfit and
+hairstyle (respecting the described asymmetry), plain light gray background, full body
+visible head to toe. No text, labels, or watermarks.
+
+====================================================================
+[2] 김재성 (22세, 취업준비생 / 영상 편집)
+====================================================================
+A chibi-style anime character reference sheet with four panels arranged in a single
+horizontal row, showing the exact same character. Cute super-deformed proportions:
+2 heads tall, large round head, big expressive eyes, small simplified body. Clean bold
+outlines, soft cel-shading, Korean webtoon/anime illustration style — NOT realistic, NOT
+photographic, NOT normal human proportions.
+
+His hairstyle is tousled and side-swept, parted so more hair falls over his RIGHT side of
+the forehead, leaving his LEFT forehead more visible. This asymmetry must stay physically
+consistent across all four panels — it is not something to flip or mirror between panels.
+
+Panel 1 (Front view): he faces directly toward the camera, both eyes visible, focused
+expression. The tousled bangs are visible falling more over the right side of his forehead.
+He wears white wireless earbuds (AirPods-style) in both ears.
+Panel 2 (Right side view): his body is turned so we see his RIGHT profile — face pointing
+toward the right edge of the frame, nose pointing right, only his right eye visible. Since
+more hair falls over this side, his bangs fall low enough to almost completely cover his
+right eyebrow — the eyebrow should be barely visible or fully hidden under the hair, clearly
+different from the front view. The white wireless earbud is visible in his right ear.
+Panel 3 (Left side view): his body is turned so we see his LEFT profile — face pointing
+toward the left edge of the frame, nose pointing left, only his left eye visible. Since his
+left forehead is more exposed, this profile shows a cleaner hairline with his left eyebrow
+fully visible and not covered by hair — clearly different from panel 2, not a mirrored copy
+of it. The white wireless earbud is visible in his left ear.
+Panel 4 (Back view): he faces directly away from the camera, back of head and body only, no face.
+
+Character design: young man, slim build, short tousled dark hair as described above, alert
+focused expression, wearing small white wireless earbuds (AirPods-style, no wires or cables
+anywhere) in both ears. Oversized charcoal-gray crewneck sweatshirt, joggers, white
+sneakers. In panel 1 only, he holds a smartphone in one hand.
+
+All four panels: identical chibi proportions, identical height, identical outfit, hairstyle
+(respecting the described asymmetry), and earbuds, plain light gray background, full body
+visible head to toe. No text, labels, or watermarks. No wired cables or cords anywhere.
+
+====================================================================
+[3] 최수민 (21세, 구직 중 / 전직 비서, 예술 애호가)
+====================================================================
+A chibi-style anime character reference sheet with four panels arranged in a single
+horizontal row, showing the exact same character. Cute super-deformed proportions:
+2 heads tall, large round head, big expressive eyes, small simplified body. Clean bold
+outlines, soft cel-shading, Korean webtoon/anime illustration style — NOT realistic, NOT
+photographic, NOT normal human proportions.
+
+Her wavy hair has a side part, with more hair swept over her RIGHT side of the forehead,
+leaving her LEFT forehead more visible. She carries a canvas tote bag on her RIGHT shoulder
+only. Both of these asymmetries must stay physically consistent across all four panels —
+they are not something to flip, mirror, or duplicate onto both sides.
+
+Panel 1 (Front view): she faces directly toward the camera, both eyes visible, dreamy calm
+expression. The wavy bangs are visible swept more over the right side of her forehead. The
+tote bag strap crosses her right shoulder, bag resting at her right hip.
+Panel 2 (Right side view): her body is turned so we see her RIGHT profile — face pointing
+toward the right edge of the frame, nose pointing right, only her right eye visible. Since
+more hair covers this side, her bangs fall low enough to almost completely cover her right
+eyebrow — the eyebrow should be barely visible or fully hidden under the hair, clearly
+different from the front view. Because the tote bag is on her right shoulder, it is clearly
+visible in this view, hanging at her side closest to the camera.
+Panel 3 (Left side view): her body is turned so we see her LEFT profile — face pointing
+toward the left edge of the frame, nose pointing left, only her left eye visible. Since her
+left forehead is more exposed, this profile shows a cleaner hairline with her left eyebrow
+fully visible and not covered by hair — clearly different from panel 2, not a mirrored copy
+of it. The tote bag is on her far shoulder (the right
+one), so in this view it is mostly hidden behind her body — do NOT show the bag hanging on
+this near (left) side; only a small sliver of the strap may peek out past her far shoulder,
+or it may be fully hidden.
+Panel 4 (Back view): she faces directly away from the camera, back of head and body only,
+no face. The tote bag strap is visible crossing diagonally from her right shoulder across
+her back.
+
+Character design: young woman, slender build, soft face, big warm brown eyes, shoulder-
+length wavy dark brown hair as described above. Cream knit cardigan over a simple midi
+dress, flat loafers. In panel 1 only, she holds a small paperback book against her chest.
+
+All four panels: identical chibi proportions, identical height, identical outfit and
+hairstyle (respecting the described asymmetry), plain light gray background, full body
+visible head to toe. No text, labels, or watermarks.
