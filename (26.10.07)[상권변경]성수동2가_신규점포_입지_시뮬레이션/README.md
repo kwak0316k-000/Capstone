@@ -20,7 +20,7 @@
 | 시뮬레이션 수치(후보지별, 민감도) | [`data/sim_numbers_seongsu.json`](data/sim_numbers_seongsu.json) |
 
 ### 실행 방법
-- **GitHub Pages (저장소 Settings → Pages에서 켠 경우):** `https://kwak0316k-000.github.io/Capstone/성수동2가_신규점포_입지_시뮬레이션/index.html`
+- **GitHub Pages (저장소 Settings → Pages에서 켠 경우):** `https://kwak0316k-000.github.io/Capstone/(26.10.07)[상권변경]성수동2가_신규점포_입지_시뮬레이션/index.html`
 - **로컬:** 저장소를 내려받아 이 폴더의 `index.html`을 브라우저로 열기 (같은 폴더의 `assets/` 필요, 설치 불필요)
 - GitHub 화면에서 `index.html`을 열면 코드만 보이고 실행되지 않습니다.
 
