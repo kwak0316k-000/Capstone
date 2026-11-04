@@ -13,17 +13,13 @@
 
 | 보고 싶은 것 | 위치 |
 |---|---|
-| **시뮬레이션 실행** | [`index.html`](index.html) (아래 '실행 방법') |
+| **시뮬레이션 실행** | https://kwak0316k-000.github.io/Capstone/상권_2_성수동2가_신규점포_입지_시뮬레이션/index.html |
 | **진출 판정 · 위치 선정 근거 · 타겟 고객 · 마케팅 · 손익분기** | [`보고서.md`](보고서.md) |
 | 코엑스→성수 변경 이유, 상권 데이터 분석 | 이 README 아래쪽 / [`보고서.md`](보고서.md) 1~2장 |
 | 상권 데이터 분석 코드 / 결과 | [`analysis_seongsu.py`](analysis_seongsu.py) / [`data/analysis_seongsu.json`](data/analysis_seongsu.json) |
 | 보정·판정 계산 코드 / 결과 | [`estimate_seongsu.py`](estimate_seongsu.py) / [`data/evaluation_seongsu.json`](data/evaluation_seongsu.json) |
 | 성수역 슈퍼마켓 실제 매출 정리 | [`prepare_market_seongsu.py`](prepare_market_seongsu.py) / [`data/market_seongsu.json`](data/market_seongsu.json) |
 
-### 실행 방법
-- **GitHub Pages (저장소 Settings → Pages에서 켠 경우):** `https://kwak0316k-000.github.io/Capstone/성수동2가_신규점포_입지_시뮬레이션/index.html`
-- **로컬:** 저장소를 내려받아 이 폴더의 `index.html`을 브라우저로 열기 (같은 폴더의 `assets/` 필요, 설치 불필요)
-- GitHub 화면에서 `index.html`을 열면 코드만 보이고 실행되지 않습니다.
 
 화면에서 할 수 있는 것: 후보 위치 고르기 → ▶ 재생(속도 조절) → 마우스 드래그·휠로 화면 이동·확대('선택한 점포로 이동' 버튼) → 지나간 방문자 / 간식·화장품이 필요한 사람 / 우리 점포를 고른 사람 / 다른 슈퍼를 고른 사람 확인. 선택한 자리의 판정과 6곳 비교표, 조건을 바꿔 본 대조실험이 아래에 있습니다.
 
