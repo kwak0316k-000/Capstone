@@ -1,0 +1,72 @@
+{
+  "district_code": 3120052,
+  "district_name": "성수역",
+  "industry": "슈퍼마켓",
+  "period": "2025년 1~4분기 합계",
+  "source": {
+    "sales": "서울시 상권분석서비스(추정매출-상권) OA-15572",
+    "stores": "서울시 상권분석서비스(점포-상권) OA-15577"
+  },
+  "stores": 23.0,
+  "stores_by_quarter": {
+    "20251": 20,
+    "20252": 22,
+    "20253": 26,
+    "20254": 24
+  },
+  "sales_amount_2025": 7832987456,
+  "transactions_2025": 1162918,
+  "avg_ticket": 6736,
+  "sales_per_store_2025": 340564672,
+  "transactions_per_store_2025": 50562,
+  "time": {
+    "00-06": {
+      "transactions": 39277,
+      "amount": 285385224,
+      "tx_pct": 3.38,
+      "avg_ticket": 7266
+    },
+    "06-11": {
+      "transactions": 298436,
+      "amount": 1663633468,
+      "tx_pct": 25.66,
+      "avg_ticket": 5575
+    },
+    "11-14": {
+      "transactions": 251756,
+      "amount": 1634339777,
+      "tx_pct": 21.65,
+      "avg_ticket": 6492
+    },
+    "14-17": {
+      "transactions": 211909,
+      "amount": 1529015215,
+      "tx_pct": 18.22,
+      "avg_ticket": 7215
+    },
+    "17-21": {
+      "transactions": 254811,
+      "amount": 1906902351,
+      "tx_pct": 21.91,
+      "avg_ticket": 7484
+    },
+    "21-24": {
+      "transactions": 106729,
+      "amount": 813711421,
+      "tx_pct": 9.18,
+      "avg_ticket": 7624
+    }
+  },
+  "age_tx_pct": {
+    "10대": 1.28,
+    "20대": 31.06,
+    "30대": 36.49,
+    "40대": 15.87,
+    "50대": 10.37,
+    "60대+": 4.92
+  },
+  "gender_tx_pct": {
+    "남": 58.78,
+    "여": 41.22
+  }
+}
