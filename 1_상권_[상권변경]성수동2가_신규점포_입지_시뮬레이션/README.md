@@ -13,16 +13,12 @@
 
 | 보고 싶은 것 | 위치 |
 |---|---|
-| **시뮬레이션 실행** | [`index.html`](index.html) (아래 '실행 방법') |
+| **시뮬레이션 실행** | https://kwak0316k-000.github.io/Capstone/1_%EC%83%81%EA%B6%8C_%5B%EC%83%81%EA%B6%8C%EB%B3%80%EA%B2%BD%5D%EC%84%B1%EC%88%98%EB%8F%992%EA%B0%80_%EC%8B%A0%EA%B7%9C%EC%A0%90%ED%8F%AC_%EC%9E%85%EC%A7%80_%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98/index.html |
 | **위치 선정 근거 · 타겟 고객 · 마케팅 · 손익분기** | [`보고서.md`](보고서.md) |
 | 코엑스→성수 변경 이유, 상권 데이터 분석 | 이 README 아래쪽 / [`보고서.md`](보고서.md) 1~2장 |
 | 상권 데이터 분석 코드 / 결과 | [`analysis_seongsu.py`](analysis_seongsu.py) / [`data/analysis_seongsu.json`](data/analysis_seongsu.json) |
 | 시뮬레이션 수치(후보지별, 민감도) | [`data/sim_numbers_seongsu.json`](data/sim_numbers_seongsu.json) |
 
-### 실행 방법
-- **GitHub Pages (저장소 Settings → Pages에서 켠 경우):** `https://kwak0316k-000.github.io/Capstone/성수동2가_신규점포_입지_시뮬레이션/index.html`
-- **로컬:** 저장소를 내려받아 이 폴더의 `index.html`을 브라우저로 열기 (같은 폴더의 `assets/` 필요, 설치 불필요)
-- GitHub 화면에서 `index.html`을 열면 코드만 보이고 실행되지 않습니다.
 
 화면에서 할 수 있는 것: 후보 위치 고르기 → ▶ 재생(속도 조절) → 마우스 드래그·휠로 화면 이동·확대('선택한 점포로 이동' 버튼) → 가게를 본 사람 / 들어온 사람 / 구매한 사람 / 매출 확인. 슬라이더로 외국인 비율, 입장률, 구매율, 객단가를 바꾸면 다시 계산하고, 아래 **'비교 계산'** 버튼으로 6곳을 한 번에 비교합니다.
 
